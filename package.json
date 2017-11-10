@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-protobuf": "^3.4.0",
+    "grpc": "1.0.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "7.0.12",
+    "gulp": "3.9.1",
+    "gulp-protoc": "^1.0.0",
+    "ts-protoc-gen": "^0.4.0",
+    "ts-node": "0.7.3"
+  }
+}

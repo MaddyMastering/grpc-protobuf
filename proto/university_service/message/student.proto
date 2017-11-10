@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package test;
+
+enum Topic {
+    MEDICAL = 0;
+    COMPUTER = 1;
+    MECHANICAL = 2;
+    ELECTRICAL = 4;
+}
+
+message Input {
+    string name = 1;
+}
+
+message Student {
+    string name = 1;
+    int64 serialnumber = 2;
+    Topic topic = 3;
+}

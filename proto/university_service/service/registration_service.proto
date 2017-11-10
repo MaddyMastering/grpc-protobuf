@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package test.rpc;
+
+import "message/student.proto";
+
+service University {
+    
+    rpc Register (test.Input) returns (test.Student) {};
+}
+
